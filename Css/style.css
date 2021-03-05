@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,107,123,1) 0%, rgba(55,105,125,1) 51%, rgba(132,107,123,1) 100%);
+}
+header .menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav {
+border: 4px solid rgb(255, 255, 255);
+padding: 5px;
+}
+.nav i{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+.content{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog{
+    text-align: center;
+    color: rgb(255, 255, 255);    
+    font-family: 'RocknRoll One', sans-serif;
+}
+.dialog h1{
+border-top: 2px solid white ;
+border-bottom: 2px solid white ;
+padding: 5px;
+
+}
+.dialog p{
+    padding-top: 5px;
+}
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vw;
+}
+.about-dialog{
+    width: 35%;
+    padding: 20px;
+
+}
+#about h2 {
+    color: rgb(187, 187, 187);
+    font-family: 'Akaya Telivigala', cursive;
+}
+#abaout-text{
+    color: rgb(37, 37, 37);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#about button{
+    color: rgb(255, 255, 255);
+    background: #ff2b4a;
+    padding: 10px 40px;
+    border: 0;
+    font-size: 24px ;
+    margin-top: 25px;
+
+}
+#working{
+    width: 100%;
+    color:#ffffff;
+    background: #f6f6f6;
+    text-align: center;
+    padding: 75px 0;
+
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.block{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    
+}
+.working-dialog{
+    color: rgb(0, 0, 0);
+}
+
+.block i{
+    padding-top: 50px;
+}
+.design{
+    background: #10c6fc;
+    
+}
+.development{
+    background: #835aeb;
+}
+.testing{
+    background: #002453;
+}
+.launch{
+    background: #ff2b4a;
+}
+#education{
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,107,123,1) 0%, rgba(55,105,125,1) 51%, rgba(132,107,123,1) 100%);
+    padding-top: 10% 0;
+    
+}
+.education-panel{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.education-links{
+    /*width: 700px;*/
+    width: 35%;
+   /* height: 500px;*/
+    background: #69647c88;
+    color: white;
+    
+    
+}
+.education-links1{
+    
+    margin: 20px;
+    border-bottom: 2px solid  rgb(184, 184, 184);
+}
+.education-links2{
+    
+    margin: 20px;
+    
+}
+.education-right{
+    /*width: 700px;*/
+    width: 35%;
+
+    /*height: 500px;*/
+    background: #69647c88;
+    color: white;
+    
+    
+}
+.education-right1{
+    margin: 20px;
+    border-bottom: 2px solid  rgb(184, 184, 184);
+}
+.education-right2{
+    margin: 20px;
+}
+.education-links h2,.education-links h4,
+.education-links h5,.education-links p{
+    padding: 20px;
+}
+.education-right h2,.education-right h4,
+.education-right h5,.education-right p{
+    padding: 20px;
+}
+#portfolio{
+    width: 100%;
+    background: white;
+    
+}
+#portfolio h2,#portfolio p{
+    padding: 25px;    
+    text-align: center;
+}
+.porfolioGrup {
+    width: 73%;
+    border: 2px solid black;
+    margin: 3vw auto;
+}
+.porfolioGrup .top {
+    width: 18vw;
+    height: 18vw;
+    display: inline-block;
+}
+.porfolioGrup .button {
+    width: 36.2vw;
+    height: 18vw;
+    display: inline-block;
+}
+.portfoliotop1{
+    background :#10c6fc;
+}
+.portfoliotop2{
+    background :#835aeb;
+}
+.portfoliotop3{
+    background :#002453;
+}
+.portfoliotop4{
+    background :#ff2b4a;
+}
+.portfoliobotton1{
+    background :#835aeb;
+}
+.portfoliobotton2{
+    background :#002453;
+}
+.portfoliobotton3{
+    background :#ff2b4a;
+}
+#feedback {
+    width: 100%;
+    background: #64cbc0;
+    padding: 20vw 0 25vw 15vw;
+    box-sizing: border-box;
+}
+#feedback #text{
+    width: 40%;
+    padding:  40px 0 25px 0;
+}
+#feedback h5{
+    width: 40%;
+    padding:  40px 0 25px 0;
+}
+#register
+{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,107,123,1) 0%, rgba(55,105,125,1) 51%, rgba(132,107,123,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.reg-content{
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    
+}
+.forma{
+    text-align: center;    
+    width: 35%;
+    height: 100%;
+    background: #69647c88;
+    color: white;
+    margin: 0 25px 0 25px;
+}
+.forma1{
+    text-align: center;    
+    width: 35%;
+    color: white;
+    margin: 0 0 0 25px;
+}
+.forma form input, form textarea{
+    width: 80%;
+    margin: 5px 0 0 0;
+    padding: 10px;
+    font-size: 19px;
+    border: 1px solid white;
+    background: #69647c88;
+}
+.forma form input::placeholder, form textarea::placeholder{
+    color: white;
+}
+#knopka{
+    padding: 10px 25px;
+    background: #ff2b4a;
+    text-align: right;
+}
+.daten{
+    width: 100%;
+    height: 31%;
+    background: #69647c88;
+    margin-bottom: 25px; 
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+#footer{
+    width: 100%;
+    height: 150px;
+    background: black;
+    justify-content: center;
+
+}
+#footer h6{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(184, 184, 184);
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.socityGrup{
+    
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.socity1 i{
+    border-right:  2px solid  rgb(184, 184, 184);
+    color:  #ff2b4a;
+    padding: 5px 10px;
+}
+.socity2 i{
+    border-right:  2px solid  rgb(184, 184, 184);
+    color:  rgb(184, 184, 184);
+    padding: 5px 10px;
+}
+.socity3 i{
+    border-right:  2px solid  rgb(184, 184, 184);
+    color:  rgb(184, 184, 184);
+    padding: 5px 10px;
+}
+.socity4 i{
+    
+    color:  rgb(184, 184, 184);
+    padding: 5px 10px;
+}
+
+  
+@media only screen and (max-width: 1024px) {
+    .about_image{
+        width: 215px;
+        height: 271px;
+        justify-content: button;
+     }
+    #working{
+        width: 100%;
+        color:#ffffff;
+        background: #f6f6f6;
+        text-align: center;
+        align-items: center; 
+        justify-content: center;
+    
+    }
+    .working-dialog {
+        font-size: 3vw;
+    }
+    .title{
+    width: 100%;
+    display: inline-block !important;
+    padding-top: 25px;
+    }
+    .title .block{
+        display: inline-block !important;
+        width: 300px;
+        height: 300px;
+    }
+    .title .block i, .title .block p{
+        font-size: 4vw;
+        margin: revert;
+    }
+    .design{
+        background: #10c6fc;
+        
+    }
+    .development{
+        background: #835aeb;
+    }
+    .testing{
+        background: #002453;
+        
+    }
+    .launch{
+        background: #ff2b4a;
+        
+    }
+    #education{
+        width: 100%;
+        
+    }
+    
+    .education-panel{
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .education-links{
+        width: 100%;
+        
+    }    
+    .education-right{
+        width: 100%;
+        
+    }
+   
+    .porfolioGrup .top {
+    width: 33.2vw;
+    height: 22vw;
+    margin: 15px;
+    }
+    .porfolioGrup .button {
+        width: 70vw;
+        height: 22vw;
+        margin: 15px;
+    }
+}
